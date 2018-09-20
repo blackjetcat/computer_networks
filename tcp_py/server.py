@@ -25,7 +25,7 @@ while True:
         print('String received: ', str_to_change)
         newstr = change(str_to_change.decode())
         client_sock.send(newstr.encode())
-        print('New string has been sent\n')
+        print('New string', '"', newstr.encode(), '"', 'has been sent\n')
 
     client_sock.close()
     print('socket closed\n')
