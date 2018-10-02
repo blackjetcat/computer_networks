@@ -2,3 +2,7 @@
 /tcp_py/venv/
 /udp_py/.idea/
 /udp_py/venv/
+/multi_thread_tcp/.idea
+/multi_thread_tcp/venv
+/multiprocessing_tcp/.idea
+/multiprocessing_tcp/venv
