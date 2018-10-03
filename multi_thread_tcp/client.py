@@ -4,9 +4,9 @@ import socket
 server_address = ('localhost', 9090)
 client_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 client_socket.connect(server_address)
+print("connected to ", server_address)
 # Working cycle
-while True:
-    print("connected to ", server_address)
+while True:    
     print("to exit leave the string unfilled")
     to_send = input("Enter destination: ")
     if to_send == "":
